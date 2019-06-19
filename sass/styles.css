@@ -1,0 +1,227 @@
+/* color variables, extends */
+.supplier-reg, .hotel-details .hotel-button {
+  background-color: #fff;
+  padding: 0.8em 1.4em;
+  border-radius: 25px;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+
+.franchise-reg, .button {
+  background-color: #FFC20D;
+  padding: 0.8em 1.4em;
+  border-radius: 25px;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* end */
+.logo {
+  height: 40px;
+}
+
+.navbar-nav {
+  margin-left: 29em;
+}
+
+/* navigation and banner */
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-holder {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+  box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+}
+.nav-holder .navbar-brand p {
+  margin-bottom: 0;
+}
+.nav-holder ul li {
+  margin-left: 0.2em;
+}
+.nav-holder .navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+}
+.nav-holder .navbar-nav {
+  margin-left: 20em;
+}
+
+/* end */
+/* fonts */
+h1 {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+.heading {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+h4 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+p {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* end */
+/* welcome */
+#welcome {
+  background-color: #009132;
+  padding: 14em;
+  height: 100vh;
+}
+
+.welcome-content {
+  margin-top: 4em;
+  color: #fff;
+}
+.welcome-content p {
+  margin-bottom: 3em;
+}
+
+#welcome h2 {
+  margin-bottom: 0.8em;
+}
+
+.subway-icon {
+  height: 450px;
+  float: right;
+}
+
+/* end */
+/* mission */
+#mission {
+  padding: 6em;
+  text-align: center;
+}
+#mission .heading {
+  color: #009132;
+  margin-bottom: 0.5em;
+}
+
+/* end */
+/* venue */
+#venue {
+  background-color: #FFC20D;
+  padding: 10em;
+  color: #fff;
+  height: 100vh;
+}
+#venue h3 {
+  margin-bottom: 0.8em;
+}
+#venue h4 {
+  margin-top: 2em;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+/* end */
+/* hotels */
+#hotels {
+  padding: 8em;
+}
+#hotels .hotel-content {
+  text-align: center;
+}
+#hotels .heading {
+  color: #009132;
+}
+#hotels .hotels-blocks {
+  padding-top: 3em;
+}
+
+.hotel-details {
+  padding: 2em;
+  color: #fff;
+}
+.hotel-details h3 {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  margin-bottom: 0.8em;
+}
+.hotel-details h4 {
+  font-size: 1.1em;
+}
+.hotel-details ul {
+  padding-left: 0;
+  margin-bottom: 2.5em;
+}
+.hotel-details ul li {
+  list-style-type: none;
+}
+.hotel-one {
+  background-color: #FFC20D;
+}
+
+.hotel-two {
+  background-color: #009132;
+}
+
+.hotel-three {
+  background-color: #00a7e9;
+}
+
+.hotel-four {
+  background-color: #4c006a;
+}
+
+.hotel-five {
+  background-color: #ff8200;
+}
+
+.hotel-six {
+  background-color: #de3804;
+}
+
+/* end */
+/* itinerary */
+#itinerary {
+  background-color: #009132;
+  padding: 8em;
+}
+
+.itinerary-content {
+  text-align: center;
+}
+.itinerary-content .heading {
+  color: #fff;
+}
+.itinerary-content h4 {
+  font-style: italic;
+  color: #fff;
+}
+
+/* end */
+/* register */
+#register {
+  background-color: #00a7e9;
+  padding: 8em;
+  text-align: center;
+  color: #fff;
+}
+
+.register-content h2 {
+  margin-bottom: 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,354 @@
+/* color variables, extends */
+.franchise-reg, .supplier-reg, .hotel-details .hotel-button {
+  background-color: #fff;
+  padding: 0.6em 1.4em;
+  border-radius: 25px;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  color: #000;
+  display: inline-block;
+}
+
+.button {
+  background-color: #FFC20D;
+  padding: 0.6em 1.4em;
+  border-radius: 25px;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+  color: #006230;
+  display: inline-block;
+}
+
+.hotel-six .hotel-button:hover, .hotel-one .hotel-button:hover {
+  background-color: #FFC20D;
+  transition: 0.4s;
+  color: #028940;
+  text-decoration: none;
+}
+
+.hotel-four .hotel-button:hover, .hotel-two .hotel-button:hover {
+  background-color: #028940;
+  transition: 0.4s;
+  color: #FFC20D;
+  text-decoration: none;
+}
+
+.franchise-reg:hover, .supplier-reg:hover, .hotel-five .hotel-button:hover, .hotel-three .hotel-button:hover {
+  background-color: #FFC20D;
+  transition: 0.4s;
+  color: #4C006A;
+  text-decoration: none;
+}
+
+/* end */
+.logo {
+  height: 100px;
+}
+
+/* navigation and banner */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  min-width: 320px;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.nav-holder {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+  box-shadow: 1px 1px 36px -12px rgba(0, 0, 0, 0.55);
+}
+.nav-holder .navbar-brand p {
+  margin-bottom: 0;
+}
+.nav-holder ul li {
+  margin-left: 0.2em;
+}
+.nav-holder .navbar-expand-xl .navbar-nav .nav-link {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 575px) {
+  .logo {
+    max-width: 100%;
+  }
+}
+/* end */
+/* fonts */
+h1 {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+.heading {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+}
+
+h4 {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+p {
+  font-family: "Subway-SixInchOfc", HelveticaNeue, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* end */
+/* welcome */
+#welcome {
+  background-image: -webkit-linear-gradient(-86deg, #028940 80%, #006228 20%);
+  min-height: 100vh;
+  padding: 170px 0 40px 0;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-content {
+  padding-top: 14px;
+  color: #fff;
+}
+.welcome-content p {
+  margin-bottom: 3em;
+}
+
+#welcome h2 {
+  margin-bottom: 0.8em;
+}
+
+.button:hover {
+  background-color: #006228;
+  transition: 0.4s;
+  color: white;
+  text-decoration: none;
+}
+
+.subway-icon {
+  max-width: 455px;
+  height: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .subway-icon {
+    margin-top: 40px;
+  }
+}
+/* end */
+/* mission */
+#mission {
+  padding: 6em 0;
+  text-align: center;
+}
+#mission .heading {
+  color: #028940;
+  margin-bottom: 0.5em;
+}
+
+/* end */
+/* venue */
+#venue {
+  background-color: #FFC20D;
+  background-image: -webkit-linear-gradient(-86deg, #ffd703 80%, #FFC20D 20%);
+  padding: 10em 0;
+  color: #006230;
+  min-height: 100vh;
+}
+#venue h3 {
+  margin-bottom: 0.8em;
+}
+#venue h4 {
+  margin-top: 2em;
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+}
+#venue img {
+  max-width: 100%;
+}
+
+.venue-content {
+  margin-bottom: 5em;
+}
+
+/* end */
+/* hotels */
+#hotels {
+  padding: 8em 0;
+}
+#hotels .hotel-content {
+  text-align: center;
+}
+#hotels .heading {
+  color: #028940;
+}
+#hotels .hotels-blocks {
+  padding-top: 3em;
+}
+
+.hotel-details {
+  padding: 2em;
+}
+.hotel-details h3 {
+  font-family: "Subway-FootlongOfc", HelveticaNeue, Arial, sans-serif;
+  margin-bottom: 0.8em;
+}
+.hotel-details h4 {
+  font-size: 1.1em;
+}
+.hotel-details ul {
+  padding-left: 0;
+  margin-bottom: 2.5em;
+}
+.hotel-details ul li {
+  list-style-type: none;
+}
+.hotel-one {
+  background-color: #028940;
+  margin-bottom: 2em;
+  color: #FFC20D;
+}
+.hotel-two {
+  background-color: #FFC20D;
+  margin-bottom: 2em;
+  color: #006230;
+}
+.hotel-three {
+  background-color: #4C006A;
+  margin-bottom: 2em;
+  color: #FFC20D;
+}
+.hotel-four {
+  background-color: #FFC20D;
+  margin-bottom: 2em;
+  color: #006230;
+}
+.hotel-five {
+  background-color: #4C006A;
+  margin-bottom: 2em;
+  color: #FFC20D;
+}
+.hotel-six {
+  background-color: #028940;
+  margin-bottom: 2em;
+  color: #FFC20D;
+}
+/* end */
+/* itinerary */
+#itinerary {
+  background-image: -webkit-linear-gradient(-86deg, #028940 80%, #006228 20%);
+  padding: 8em 0;
+}
+
+.itinerary-content {
+  margin-bottom: 5em;
+}
+.itinerary-content .heading {
+  color: #fff;
+}
+.itinerary-content h4 {
+  font-style: italic;
+  color: #fff;
+}
+
+.day {
+  margin-top: 2em;
+}
+.day h3 {
+  color: #FFC20D;
+}
+.day h4 {
+  font-style: normal;
+  margin-bottom: 1em;
+}
+.day .session {
+  color: #fff;
+  margin-bottom: 0;
+}
+.day .session strong {
+  color: #FFC20D;
+}
+
+/* end */
+/* contact */
+#contact {
+  padding: 8em 0;
+}
+
+.contact-content {
+  text-align: center;
+}
+.contact-content h2 {
+  color: #028940;
+}
+.contact-content h4 {
+  color: #028940;
+}
+.contact-content a {
+  color: #FFC20D;
+}
+
+.contact-blocks {
+  margin-top: 2.5em;
+}
+.contact-blocks a:hover {
+  text-decoration: none;
+  color: #4C006A;
+  transition: 0.4s;
+}
+
+/* contact end */
+/* register */
+#register {
+  background-color: #4C006A;
+  background-image: -webkit-linear-gradient(-86deg, #4C006A 80%, #843f91 20%);
+  padding: 8em 0;
+  text-align: center;
+  color: #fff;
+}
+
+.register-content h2 {
+  margin-bottom: 1em;
+}
+
+.supplier-button {
+  margin-bottom: 2em;
+}
+
+/* end */
+/* footer */
+footer {
+  background-color: #fff;
+}
+footer .footer-content {
+  padding: 1em;
+  padding-bottom: 0;
+  color: black;
+}
+
+/* footer end */
+
+/*# sourceMappingURL=css.css.map */
